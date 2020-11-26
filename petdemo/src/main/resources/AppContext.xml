@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+	
+<bean id="pet" class="com.example.petdemo.Pet">
+	<constructor-arg value="1" type="int"></constructor-arg>
+	<constructor-arg value="Bubblu"></constructor-arg>
+	<constructor-arg>
+		<ref bean="owner"></ref>
+	</constructor-arg>
+	<constructor-arg>
+		<ref bean="trainer"></ref>
+	</constructor-arg>
+</bean>
+<bean id="owner" class="com.example.petdemo.Owner">
+	<constructor-arg value="22" type="int"></constructor-arg>
+	<constructor-arg value="Pradeep"></constructor-arg>
+</bean>
+<bean id="trainer" class="com.example.petdemo.Trainer">
+	<constructor-arg value="33" type="int"></constructor-arg>
+	<constructor-arg value="Ajay"></constructor-arg>
+</bean>
+
+</beans>
+

@@ -1,0 +1,42 @@
+
+a. Question 1: How are binary search trees useful in programming? Give three examples of
+applications/problems that can be helped by using BSTs.
+
+Answer:
+
+In programming, Binary search tree supports operations such as insertion, deletion, remove etc. It has inbuilt sorted order.
+and takes less time complexity i.e; o(logn) other than O(n),O(n2) so binary search tree runs very fast.
+
+1. For example, Daily millions of people orders items in amazon and simultaneously data
+will be saved into the database. It takes a lot of time to find a single order details in database.
+To solve this problem binary search tree used to implement multilevel indexing in database.
+2. Binary search tree used to implement Huffman Coding Algorithm 
+3. Binary search tree used to represent arithmetic expressions. Nodes are operators
+and leaves are operators.
+4. Binary search tree used in Unix kernels for managing a set of virtual memory areas (VMAs). 
+Each VMA represents a section of memory in a Unix process.
+5. Binary search tree used to implement searching algorithm and sorting algorithm
+ as it take half time.
+
+Reference: 
+https://en.wikipedia.org/wiki/Binary_search_tree
+https://www.geeksforgeeks.org/applications-of-bst/
+
+b. Question 2: How are heaps useful in programming? Give three examples of
+applications/problems that can be helped by using heaps
+
+In programming, Heaps are used to sort the elements, to find the minimum and maximum of
+element of an array.
+
+1. Heaps used in implementing efficient priority-queues which used in graph algorithms
+like Dijkstra's and prim's algorithm
+2. Heaps are used in selection algorithms as it takes constant time to find
+smallest and largest element.
+3. Heaps used for scheduling processes in operating systems.
+4. Heaps used for finding the order in statistics.
+5. Heaps used in sorting algorithms like Heap Sort
+6. Heaps used to implement A* which is path-finding algorithm used in
+AI application, including robotics and video games.
+
+https://en.wikipedia.org/wiki/Heap_%28data_structure%29#Applications
+https://www.geeksforgeeks.org/applications-of-heap-data-structure/

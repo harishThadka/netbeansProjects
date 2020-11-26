@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"stacksanddeques","l":"AStack"},{"p":"stacksanddeques","l":"Book"},{"p":"stacksanddeques","l":"BooksStack"},{"p":"stacksanddeques","l":"GreetingsStack"},{"p":"queue","l":"queueDriver"},{"p":"linkedlist","l":"Student"},{"p":"linkedlist","l":"StudentDriver"},{"p":"linkedlist","l":"StudentOperations"}]
